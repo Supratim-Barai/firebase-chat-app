@@ -15,7 +15,7 @@ const Login: FC = ({navigation}: any) => {
   const onLoginPress = () => {
     console.log(user);
 
-    // navigation.navigate('Chat');
+    navigation.navigate('Chat');
   };
 
   return (
