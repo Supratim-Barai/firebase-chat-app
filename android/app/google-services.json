@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "585457226740",
+    "project_id": "react-firebase-chat-dc92e",
+    "storage_bucket": "react-firebase-chat-dc92e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585457226740:android:fb45aba2919cb101c85fa1",
+        "android_client_info": {
+          "package_name": "com.firebase_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585457226740-iq9r3fl121r66uamar77732364hshp5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-aUhO6v_ucoEmYnlewYlTuJypyldjCow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585457226740-iq9r3fl121r66uamar77732364hshp5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
