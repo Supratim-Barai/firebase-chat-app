@@ -1,5 +1,5 @@
 import React, {FC, useEffect, useState} from 'react';
-import {View, StyleSheet} from 'react-native';
+import {View, StyleSheet,Text} from 'react-native';
 import {GiftedChat} from 'react-native-gifted-chat';
 
 export interface User {
@@ -40,7 +40,10 @@ const ChatPage: FC = () => {
     ]);
   }, []);
 
-  return <View style={styles.root}></View>;
+  return <View style={styles.root}>
+
+    <Text>ChatPage</Text>
+  </View>;
 };
 
 export default ChatPage;

@@ -4,6 +4,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 import Login from '../screens/Login';
 import Splash from '../screens/Splash';
+import ChatPage from '../screens/ChatPage';
 
 const Routes: FC = () => {
   const Stack = createStackNavigator();
@@ -15,6 +16,7 @@ const Routes: FC = () => {
         }}>
         <Stack.Screen name="Splash" component={Splash} />
         <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="Chat" component={ChatPage} />
       </Stack.Navigator>
     </NavigationContainer>
   );
